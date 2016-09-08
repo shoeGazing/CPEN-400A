@@ -1,0 +1,95 @@
+body{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#logo{
+	line-height: 100px;
+	margin: 10px;
+	width: 200px;
+	float: left;
+	text-align: center;
+	background: #EEE;
+}
+
+#welcomeBanner{
+	line-height: 100px;
+	margin: 10px;
+	width: 760px;
+	float: left;
+	text-align: center;
+	background: #DDD;
+}
+
+#mainContent{
+	overflow: hidden;
+}
+
+#navigationMenu{
+	width: 220px;
+	float: left;
+}
+
+#navigationMenu a{
+	background: #EEE;
+	margin: 10px;
+	display: block;
+	padding: 15px;
+	text-align: center;
+}
+
+#navigationMenu a:hover{
+	color: #FFF;
+	background: #333;
+}
+
+#productList {
+	float: left;
+	width: 780px;
+}
+
+.product{
+	text-align: center;
+	float: left;
+	padding: 10px;
+	width: 240px;
+	overflow: hidden;
+}
+
+.product img{
+	width: 100%;
+}
+
+.product .price{
+    position: relative;
+    margin-top: -35px;
+    line-height: 30px;
+    visibility:hidden;
+    background:rgba(221,221,221,0.8);
+}
+
+.product h4{
+	font-weight: bold;
+	margin: 0px;
+	padding: 10px;
+}
+
+.product:hover{
+	background: #EEE;
+}
+
+.product:hover .price{
+    visibility:visible;
+}
+
+#footer{
+	margin-top: 10px;
+	background: #EEE;
+	text-align: center;
+	line-height: 80px;
+}
